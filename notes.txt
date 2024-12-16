@@ -1,0 +1,188 @@
+https://grafikart.fr/formations/react
+raccourcie  rfce
+
+extension
+VSCode React Refactor	de planbcoding
+es7+ React/redux snippet		par dsznajder
+
+le usestate permet d'avoir un espace mémoire qui sera partagé à chaque fois que ce composant sera rendu par react
+
+<button disabled={!checked}>Envoyer</button>    signifie si checked n'existe pas alors le button est disabled
+tp react 5.42 pas meme paercu
+
+const [title,setTile] = useState('')
+
+useEffect (()=>{
+focument.title=title
+},[title]);
+
+useMemo meme synthaxe que le use effect
+
+useRef , permet d'interageir avec le html
+
+
+use effect, use ref pas trop compris
+
+
+https://grafikart.fr/tutoriels/react-hook-useeffect-1328#autoplay
+
+réecouter hook perso
+
+Quiz QCM sur React (avec réponses)
+
+    Quel hook permet de gérer l'état dans un composant fonctionnel en React ?
+
+        A. useEffect
+
+        B. useState (Correct)
+
+        C. useReducer
+
+        D. useContext
+
+    Quel hook est utilisé pour gérer les effets secondaires, tels que le fetch de données ou la modification du DOM, après le rendu d'un composant ?
+
+        A. useEffect (Correct)
+
+        B. useState
+
+        C. useContext
+
+        D. useReducer
+
+    Quelle est la convention recommandée pour nommer un composant React ?
+
+        A. CamelCase (Correct)
+
+        B. snake_case
+
+        C. kebab-case
+
+        D. UPPER_CASE
+
+    Quel hook permet de gérer les effets secondaires dans un composant ?
+
+        A. useContext
+
+        B. useState
+
+        C. useEffect (Correct)
+
+        D. useReducer
+
+    Quel est l'objectif principal d'un linter dans un projet React ?
+
+        A. Améliorer les performances
+
+        B. Identifier et corriger les erreurs de syntaxe et de style (Correct)
+
+        C. Optimiser les requêtes API
+
+        D. Installer des dépendances
+
+    Quelle bibliothèque est souvent utilisée avec React pour la gestion de l'état global d'une application ?
+
+        A. axios
+
+        B. useEffect
+
+        C. Redux (Correct)
+
+        D. styled-components
+
+    Comment optimiser le rendu d'une liste de composants en React ?
+
+        A. Utiliser des key uniques pour chaque élément (Correct)
+
+        B. Ne pas utiliser de key
+
+        C. Toujours forcer le rendu
+
+        D. Utiliser des IDs dupliqués
+
+    Quel hook permet de partager l'état entre plusieurs composants sans passer par les props ?
+
+        A. useEffect
+
+        B. useState
+
+        C. useContext (Correct)
+
+        D. useRef
+
+    Quelle méthode est utilisée pour naviguer entre les pages dans une application React avec React Router ?
+
+        A. navigate
+
+        B. useNavigate (Correct)
+
+        C. push
+
+        D. goBack
+
+    Dans quel hook React Query est-il recommandé de gérer la mise en cache des données récupérées par une requête ?
+
+        A. useState
+
+        B. useEffect
+
+        C. useQuery (Correct)
+
+        D. useContext
+
+    Que se passe-t-il lorsque le key d'un élément dans une liste change ?
+
+        A. L'élément est mis à jour
+
+        B. L'élément est recréé (Correct)
+
+        C. Rien ne change
+
+        D. L'élément est ignoré
+
+    Quel hook permet d'effectuer un fetch de données dans un composant fonctionnel avec React Query ?
+
+        A. useState
+
+        B. useEffect
+
+        C. useQuery (Correct)
+
+        D. useReducer
+
+    Quelle méthode dans Redux est utilisée pour envoyer des actions à l'état global ?
+
+        A. dispatch (Correct)
+
+        B. useDispatch
+
+        C. subscribe
+
+        D. connect
+
+    Comment récupère-t-on les paramètres de l'URL dans React Router ?
+
+        A. useParams (Correct)
+
+        B. useQuery
+
+        C. getParams
+
+        D. useState
+
+    Quel hook est utilisé pour appeler une mutation avec React Query ?
+
+        A. useMutation (Correct)
+
+        B. useQuery
+
+        C. useEffect
+
+        D. useState
+
+
+
+
+-----
+
+
